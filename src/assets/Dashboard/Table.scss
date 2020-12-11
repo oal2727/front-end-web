@@ -1,0 +1,78 @@
+.table-container{
+  width:75%;
+  margin:auto;
+  padding:5px;
+  border-collapse: collapse;
+  text-align:center;
+  font-family: cursive;
+}
+.table-header{
+  font-size:17px;
+  font-weight:700;
+  background:orange;
+  color:white; 
+}
+
+.image_table{
+  width:120px;
+  height:100px;
+}
+.table-container td, .table-container th {
+  padding: 8px;
+  text-align:center;
+}
+
+.table-container tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-container tr:hover {background-color: #ddd;}
+
+.table-container th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+}
+
+/* icon trash and delete */
+#edit_managment,#trash_managment{
+  width:null;
+  height:null;
+  color:white;
+  padding:7px;
+  border-radius:30px;
+  line-height:31px;
+  text-align:center;
+  font-size:23px;
+}
+#edit_managment{
+  background:#EEA518;
+}
+#trash_managment{
+  background:#EE184B;
+}
+#trash_managment:hover{
+  background:#F46A1B;
+  cursor:pointer;
+}
+#edit_managment:hover{
+  background:#674FFF;
+  cursor:pointer;
+}
+.badge_disponible,.badge_ocupado,.badge_approbed{
+  color:white;
+  padding:5px;
+  border-radius:20px;
+}
+.badge_disponible{
+  background:#18EE2D;
+}
+.badge_ocupado{
+  background:#EE184B;
+}
+.badge_approbed{
+  background:#008E9B;
+}
+.badge_approbed:hover{
+  cursor:pointer;
+  background:#188DB1;
+}

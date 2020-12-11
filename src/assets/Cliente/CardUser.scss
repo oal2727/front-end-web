@@ -1,0 +1,131 @@
+.card-login{
+  border-radius:50px;
+  height:null;
+  margin:auto;
+  background:white;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  width:600px;
+}
+  .card-login-container{
+   padding:35px;
+  }
+  //card  head
+.card-login-head{
+  color:#FD1A1A;  
+  font-size:30px;
+  text-align:center;   
+  }
+  //body
+  .card-login-body{
+    padding:10px;
+    margin-top:20px;
+    }
+    //box login
+  .input-form{
+      margin-top:25px;
+  }
+    //login input
+  .input-control{
+    border:none;
+    padding:10px;
+    height:20px;
+    background:#FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width:100%;
+    border-radius:10px;
+    outline: none;
+    font-size:17px;
+  }
+  //DASHBOARD
+  //dashboard head
+  .card-dashboard-head{
+    color:blueviolet;
+    font-family:cursive;  
+     font-size:30px;
+     margin-top:20px;
+     margin-left:1rem;
+  }
+  //dashboard body
+  .card-dashboard-body{
+    padding:15px 10px 20px;
+    margin-top:10px;
+  }
+  //box dashboard
+  .box-form-dashboard{
+    margin-top:10px;
+    display:flex;
+  }
+
+
+
+  //input dashboard
+  .input-control-dashboard{
+    margin-left:10px;
+    border:none;
+    padding:2px;
+    height:45px;
+    border-bottom:2px solid rgba(0,0,0,0.25);
+    background:transparent;
+    outline:none;
+    font-size:18px;
+    margin-top:25px;
+    width:100%;
+  }
+  //label dashboard
+  .box-form-dashboard label{
+    font-family: cursive;
+    font-size:19px;
+    line-height:90px;
+  }
+  //box dual
+  .box-form-dual{
+    display: flex;
+    justify-content:space-between;
+  }
+  //dual imagen para producto
+  .dual-form-dashboard{
+    display: flex;
+    justify-content:space-between;
+  }
+  .box-two{
+    margin-left:30px;
+  }
+  .image_producto{
+    border-radius:50px;
+    margin-top:30px;
+    width:350px;
+    height:300px;
+  }
+  .image_photo_icon{
+    color:crimson;
+    text-align:center;
+    margin-top:40px;
+    font-size:20px;
+  }
+  .image_photo_icon:hover{
+    cursor:pointer;
+    color:dodgerblue
+  }
+
+  .box-form-dashboard p{
+    font-family: "Roboto-Light";
+    line-height:85px;
+    margin-left:20px;
+    font-size:25px;
+  }
+ 
+.register_label{
+  text-align:center;
+  font-size:21px;
+  margin-top:10px;
+  color:blue;
+  font-family: "Roboto-Light";
+  cursor:pointer;
+}
+@media(max-width:780px){
+  .card-login{
+    width:800px;
+  }
+}

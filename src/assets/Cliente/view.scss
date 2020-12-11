@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+
+/* 
+
+*/
+ .container-cocinero,.container-administrador,.container-repartidor{
+  background-size: cover;
+  widows: 100px;
+  height:100vh;
+
+} 
+
+.container-administrador{
+  background-image:url("../img/administrador_background.jpg");
+}
+
+.card-login-users{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+/* PAGE HOME*/
+.initial_design{
+  display:flex;
+  justify-content:space-between;
+}
+.image_initial{
+  text-align:right;
+  width:60%;
+}
+.initial_design_text{
+  margin:20px auto;
+}
+.initial_design_text span{
+  font-size:40px;
+  color:#EE184B;
+  font-family: "Roboto-Light";
+}
+.text_wrap{
+  display:flex;
+  margin-top:20px;
+}
+.text_wrap i{
+  color:#0081CF;
+  font-size:50px;
+}
+.text_wrap p{
+  font-family: cursive;
+  font-size:40px;
+  margin-left:20px;
+  color:#2C73D2;
+}
+.button_menu_div{
+  text-align: center;
+  margin-top:50px;
+}
+.button_menu_platos{
+  background:#0089BA;
+  border:none;
+  width:200px;
+  height:50px;
+  padding:5px;
+  color:white;
+  border-radius: 40px;
+  font-size: 25px;
+  font-family: cursive;
+
+}
+.button_menu_platos:hover{
+  background:#37CADE;
+  cursor:pointer;
+}
+/* PAGE ABOUT */
+  .image-about{
+    width:100%;
+    opacity:0.7;
+  }
+  .about-title{
+    font-size:30px;
+  }
+  .about{
+    max-width:400px;
+    margin:auto;
+    text-align:center;
+    position:relative;
+    top:-100px;
+  }
+  .about p{
+    margin-top:30px;
+    font-family: "Roboto-Light";
+    font-size:21px;
+  }
+  @media(max-width:750px){
+    .about{
+      bottom:30px;
+      max-width:300px;
+    }
+  }

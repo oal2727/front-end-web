@@ -1,0 +1,44 @@
+.team-group{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-family:"cursive";
+}
+.title-equipo{
+    font-size:30px;
+    font-family: "Roboto-Light";
+  }
+  .container-person{
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .person{
+    width:200px;
+    margin-top:25px;
+    margin-left:30px;
+    padding:50px;
+    border-radius:10px;
+    
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  .person p{
+    font-family: "Domine-Regular";
+    font-weight: regular;
+    font-size:25px;
+  }
+  .person span{
+    font-size:20px;
+    color:#845EC2;
+    font-family: cursive;
+  }
+  .image_person{
+    width:150px;
+    height:190px;
+    border-radius:50%;
+  }
+  

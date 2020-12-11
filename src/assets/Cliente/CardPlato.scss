@@ -1,0 +1,60 @@
+.container_card_platos{
+  // display:flex;
+  // flex-wrap: wrap;
+  // width:50%;
+  // margin:auto;
+  // padding-top:20px;
+
+  margin-top:30px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-gap:15px;
+  justify-content: center;
+}
+.card-plato{
+ width:250px;
+margin:auto;
+}
+.card-plato p{
+  margin-bottom: 10px;
+  color:green;
+  font-size:24px;
+  font-weight:700;
+  font-family:cursive;
+  text-align:center;
+}
+.image_card_plato{
+  width:250px;
+  height:250px;
+}
+.btn_plato{
+  width:100%;
+  border:none;
+  background:#008F7A;
+  padding:5px;
+  height:35px;
+  border-radius:20px;
+  color:white;
+  font-size:17px;
+  font-weight:bold;
+  margin-bottom: 20px;
+  outline:none;
+}
+.btn_plato:hover{
+  background:#2C73D2;
+  cursor:pointer;
+}
+.cost_card_plato{
+  margin-top:15px;
+  display:flex;
+  color:#2C73D2;
+}
+.cost_card_plato p{
+  color:#2C73D2;
+  margin-left:10px;
+  font-size:18px;
+  font-family: "Roboto-Light";
+}
+#cost{
+  font-size:20px;
+}

@@ -1,0 +1,42 @@
+$colorCategory:#2C73D2;
+.categoria-organism{
+  margin:auto;
+  text-align:center;
+  padding:50px;
+  }
+.container-categoria{
+  margin:auto;
+  padding-top:20px;
+  justify-content:center;
+  align-items:center;
+  display: flex;  
+  flex-wrap: wrap;
+}
+.categoria-title{ 
+  font-family: cursive;
+  font-size:35px;
+}
+.categoria-organism span{
+  font-weight:bold;
+    color:#2C73D2;
+    font-size:30px;
+}
+  .categoria-badge{
+    background:$colorCategory;
+    color:white;
+    font-weight:700;
+    padding:18px;
+    margin-left:10px;
+    margin-top:20px;
+    border-radius:50px;
+    font-family: "Roboto-Light";
+    
+}
+/*badge cart final de managment*/
+.badge_count_cart {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  font-size:20px;
+  font-family:cursive;
+}

@@ -1,0 +1,49 @@
+
+
+/* CLIENTE DESIGN */
+
+@font-face{
+    font-family:"Domine-Bold";
+    src: url("./fonts/Domine/Domine-Bold.ttf");
+}
+@font-face{
+    font-family:"Domine-Regular";
+    src: url("./fonts/Domine/Domine-Regular.ttf");
+}
+
+@font-face{
+    font-family:"Roboto-Light";
+    src: url("./fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face{
+    font-family:"Roboto-LigthItalic";
+    src: url("./fonts/Roboto/Roboto-LightItalic.ttf");
+}
+// @font-face{
+//     // font-family:"Domine-Regular";
+//     // src:url("../fonts/Domine-Regular.ttf");
+// }
+
+
+
+@import "./Cliente/Navbar.scss";
+@import "./Cliente/CardChef.scss";
+@import "./Cliente/view.scss";
+@import "./Cliente/CardProducto.scss";
+@import "./Cliente/CardUser.scss";
+@import "./Cliente/CardPlato.scss";
+@import "./Cliente/CardManagmentProducto.scss";
+@import "./Cliente/Detailsorden.scss";
+
+@import "./footer.scss";
+@import "./Cliente/Badge.scss";
+@import "./Dashboard/Dashboard.scss";
+
+//administrador
+@import "./Dashboard/Table.scss";
+
+  
+
+
+
+
